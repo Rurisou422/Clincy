@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clincy.gg - Premium DMA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cyber-bg"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Public/Images/Clincy Logo.png" alt="Clincy.gg Logo">
+                <h1>Clincy.gg</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="https://discord.com/invite/clincy" target="_blank" class="discord-link"><i class="fab fa-discord"></i></a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <a href="#login" class="login-btn"><i class="fas fa-user"></i></a>
+                <a href="#cart" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch-text">Clincy.gg</h1>
+                <h2>Elevate Your Gaming Experience</h2>
+                <p>Providing top-tier undetectable firmware and hardware solutions</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="cyber-btn primary">EXPLORE PRODUCTS</a>
+                    <a href="https://discord.com/invite/clincy" target="_blank" class="cyber-btn secondary">JOIN DISCORD</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Public/Images/Clincy DMA.png" alt="DMA Hardware">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Undetected Firmware</h3>
+                    <p>Advanced firmware with unlimited replacements under warranty.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Free Global Shipping</h3>
+                    <p>Every hardware purchase includes free worldwide shipping.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated support team available around the clock.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products scroll-target">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="firmware">Firmware</button>
+                <button class="category-btn" data-category="hardware">Hardware</button>
+                <button class="category-btn" data-category="software">Software</button>
+            </div>
+            <div class="products-grid">
+                <div class="product-card" data-category="firmware">
+                    <div class="product-image">
+                        <img src="Public/Images/Firmware.png" alt="Advanced Firmware">
+                        <div class="product-overlay">
+                            <div class="product-actions">
+                                <a href="#" class="view-btn">View Details</a>
+                                <a href="#" class="buy-btn">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>[EMU]𝘼𝘿𝙑𝘼𝙉𝘾𝙀𝘿 𝙁𝙄𝙍𝙈𝙒𝘼𝙍𝙀</h3>
+                        <p class="product-desc">Premium undetected firmware for EAC and BattlEye protected games</p>
+                        <div class="product-price">
+                            <span class="price">€100.00</span>
+                            <span class="stock in-stock">In Stock</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="hardware">
+                    <div class="product-image">
+                        <img src="Public/Images/Enclosed Arduino.png" alt="DMA Hardware USA">
+                        <div class="product-overlay">
+                            <div class="product-actions">
+                                <a href="#" class="view-btn">View Details</a>
+                                <a href="#" class="buy-btn">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Enclosed Ard (USA)</h3>
+                        <p class="product-desc">High-performance DMA hardware with premium build quality for US customers</p>
+                        <div class="product-price">
+                            <span class="price">€179.00</span>
+                            <span class="stock in-stock">In Stock</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="hardware">
+                    <div class="product-image">
+                        <img src="Public/Images/Enclosed Arduino.png" alt="DMA Hardware International">
+                        <div class="product-overlay">
+                            <div class="product-actions">
+                                <a href="#" class="view-btn">View Details</a>
+                                <a href="#" class="buy-btn">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Enclosed Ard (International)</h3>
+                        <p class="product-desc">High-performance DMA hardware with premium build quality for worldwide shipping</p>
+                        <div class="product-price">
+                            <span class="price">€199.00</span>
+                            <span class="stock low-stock">Low Stock</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="software">
+                    <div class="product-image">
+                        <img src="Public/Images/Software.png" alt="Valorant EVO Software">
+                        <div class="product-overlay">
+                            <div class="product-actions">
+                                <a href="#" class="view-btn">View Details</a>
+                                <a href="#" class="buy-btn">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Valorant EVO DMA Software - 1 Month</h3>
+                        <p class="product-desc">Advanced Valorant gaming software with EVO features</p>
+                        <div class="product-price">
+                            <span class="price">€59.99</span>
+                            <span class="stock in-stock">In Stock</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-spacer"></div>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The quality of the firmware is exceptional. Been using it for months without any issues."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Alex M.</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Customer support is top-notch. They helped me set up everything and were always quick to respond."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Sarah K.</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Upgrade Your Experience?</h2>
+                <p>Join thousands of satisfied customers worldwide</p>
+                <a href="#products" class="cyber-btn primary">SHOP NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Public/Images/Clincy Logo.png" alt="Clincy.gg Logo">
+                    <h3>Clincy.gg</h3>
+                    <p>Premium DMA</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="terms.html">Terms</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="#">Firmware</a></li>
+                            <li><a href="#">Hardware</a></li>
+                            <li><a href="#">Software</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="https://discord.com/invite/clincy" target="_blank">Discord</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Clincy.gg. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://discord.com/invite/clincy" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Detail Popup -->
+    <div id="product-popup" class="product-popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <div class="popup-header">
+                <a href="#" class="back-btn"><i class="fas fa-arrow-left"></i> Back to products</a>
+            </div>
+            <div class="popup-body">
+                <div class="popup-image">
+                    <img id="popup-product-image" src="" alt="Product Image">
+                </div>
+                <div class="popup-details">
+                    <h2 id="popup-product-title"></h2>
+                    <div class="popup-price">
+                        <span id="popup-product-price"></span>
+                    </div>
+                    <div class="popup-description" id="popup-description">
+                        <!-- Default features list -->
+                        <div class="feature-default">
+                            <ul class="feature-list">
+                                <li>Placeholder</li>
+                                <li>Multi Anti-Cheat Support</li>
+                                <li>Premium Features</li>
+                                <li>Priority Support</li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Advanced EMU Firmware features -->
+                        <div class="feature-firmware" style="display: none;">
+                            <h3>Key Features</h3>
+                            <div class="features-columns">
+                                <ul class="feature-list">
+                                    <li>1:1 cfgpsace from a real donor device</li>
+                                    <li>No ⚠️ in device manager</li>
+                                    <li>Real device IRQ-Emulation</li>
+                                    <li>Real TLP emulation</li>
+                                    <li>Always updated for drvscan</li>
+                                </ul>
+                                <ul class="feature-list">
+                                    <li>Driver support</li>
+                                    <li>Vendor MAC with randomized address</li>
+                                    <li>Full BAR support</li>
+                                    <li>Lifetime support and updates</li>
+                                    <li>Most 35t/75t supported</li>
+                                </ul>
+                            </div>
+                            <h3>Anti-Cheat Support</h3>
+                            <ul class="feature-list anti-fun">
+                                <li>BE/EAC/ACE</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#" class="purchase-btn">Purchase Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
